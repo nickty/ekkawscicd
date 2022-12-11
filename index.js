@@ -4,7 +4,7 @@ const port = 9000;
 
 // change for check
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World! I am working from AWS");
 });
 
 app.listen(port, () => {
